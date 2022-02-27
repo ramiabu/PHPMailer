@@ -27,6 +27,7 @@ $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
 //Set the hostname of the mail server
 $mail->Host = 'smtp.gmail.com';
+
 //Use `$mail->Host = gethostbyname('smtp.gmail.com');`
 //if your network does not support SMTP over IPv6,
 //though this may cause issues with TLS
@@ -45,10 +46,10 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = 'username@gmail.com';
+$mail->Username = 'ramiabueid2022@gmail.com';
 
 //Password to use for SMTP authentication
-$mail->Password = 'yourpassword';
+$mail->Password = 'Windows962***';
 
 //Set who the message is to be sent from
 //Note that with gmail you can only use your account address (same as `Username`)
